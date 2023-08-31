@@ -4,12 +4,6 @@ body{
     font-family: Poppins;
 }
 
-/* nav{
-    background-color: #BF0078;
-    color: white;
-} */
-
-
 header{
     margin: 100px auto;
     text-align: center;
@@ -24,6 +18,11 @@ header h2{
     font-size: 18px;
 }
 
+header h3{
+    font-size: 15px;
+    color: hotpink;
+}
+
 section{
     margin: 0 auto;
     padding: 20px 50px;
@@ -31,11 +30,11 @@ section{
     background-color: lightblue;
 }
 
-section h1 {
+section h2 {
     color: grey;
     font-size: 18px;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
 }
 
 .icon-socials a{
