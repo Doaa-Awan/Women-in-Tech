@@ -5,12 +5,13 @@ body{
 }
 
 header{
-    margin: 100px auto;
+    margin: 90px auto 60px;
     text-align: center;
 }
 
 header img{
     margin: 10px;
+    width: auto;
 }
 
 header h2{
@@ -27,11 +28,11 @@ section{
     margin: 0 auto;
     padding: 20px 50px;
     font-size: 15px;
-    background-color: lightblue;
+    color: gray;
 }
 
 section h2 {
-    color: grey;
+    color: turquoise;
     font-size: 18px;
     text-transform: uppercase;
     margin: 10px 0 20px 0;
@@ -46,4 +47,25 @@ section h2 {
 .site-author{
     font-size: 12px;
     margin-top: 20px;
+}
+
+/* RESPONSIVE DESKTOP VIEW */
+@media (min-width: 768px){
+
+    header h2, section h2 {
+        font-size: 22px;
+    }
+
+    header h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .icon-socials a {
+        font-size: 70px;
+    }
+
 }
