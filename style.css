@@ -5,12 +5,12 @@ body{
 }
 
 header{
-    margin: 90px auto 60px;
+    margin: 90px auto 70px;
     text-align: center;
 }
 
 header img{
-    margin: 10px;
+    margin: 10px auto;
     width: auto;
 }
 
@@ -26,7 +26,7 @@ header h3{
 
 section{
     margin: 0 auto;
-    padding: 20px 50px;
+    padding: 0 50px;
     font-size: 15px;
     color: gray;
 }
@@ -46,7 +46,6 @@ section h2 {
 
 .site-author{
     font-size: 12px;
-    margin-top: 20px;
 }
 
 /* RESPONSIVE DESKTOP VIEW */
