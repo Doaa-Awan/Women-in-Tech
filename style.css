@@ -1,6 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
-header{
+body{
     font-family: Poppins;
-    margin: 60px;
+}
+
+/* nav{
+    background-color: #BF0078;
+    color: white;
+} */
+
+
+header{
+    margin: 100px auto;
+    text-align: center;
+}
+
+header img{
+    margin: 10px;
+}
+
+header h2{
+    color: gray;
+    font-size: 18px;
+}
+
+section{
+    margin: 0 auto;
+    padding: 20px 50px;
+    font-size: 15px;
+    background-color: lightblue;
+}
+
+section h1 {
+    color: grey;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.icon-socials a{
+    font-size: 50px;
+    text-decoration: none;
+    color: pink;
+}
+
+.site-author{
+    font-size: 12px;
+    margin-top: 20px;
 }
