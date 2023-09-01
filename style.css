@@ -8,6 +8,8 @@ body{
     font-family: Poppins;
 }
 
+/* MOBILE M VIEW 375px */
+
 header{
     margin: 100px auto 70px;
     text-align: center;
@@ -49,11 +51,11 @@ section h2 {
 }
 
 .team-profile{
-    margin: 0 30px;
+    margin-left: 20px;
+    margin-right: 0;
 }
 
 .team-profile img{
-    border: 1px solid rgb(247, 30, 139);
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -83,12 +85,21 @@ section h2 {
     margin: 10px auto 30px;
 }
 
-/* RESPONSIVE TABLET VIEW */
-@media (min-width: 768px){
+/* RESPONSIVE MOBILE L VIEW */
+@media (min-width: 425px){
+
+    .team-profile{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+
+    .team-profile p {
+        font-size: 14px;
+    }
 
 }
 
-/* RESPONSIVE DESKTOP VIEW */
+/* RESPONSIVE LAPTOP L VIEW */
 @media (min-width: 1440px){
 
     header h2, section h2 {
