@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     font-family: Poppins;
 }
 
 header{
-    margin: 90px auto 70px;
+    margin: 100px auto 70px;
     text-align: center;
 }
 
@@ -26,7 +30,7 @@ header h3{
 
 section{
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 30px;
     font-size: 15px;
     color: gray;
 }
@@ -41,7 +45,7 @@ section h2 {
 .icon-socials a{
     font-size: 50px;
     text-decoration: none;
-    color: pink;
+    color: hotpink;
 }
 
 .site-author{
@@ -52,7 +56,7 @@ section h2 {
 @media (min-width: 768px){
 
     header h2, section h2 {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     header h3 {
@@ -60,11 +64,15 @@ section h2 {
     }
 
     p {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .icon-socials a {
         font-size: 70px;
+    }
+
+    section {
+        margin: 0 300px;
     }
 
 }
