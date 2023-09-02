@@ -85,6 +85,19 @@ section h2 {
     margin: 10px auto 30px;
 }
 
+.footer-img{
+    opacity: 0.7;
+    /* position: fixed; */
+}
+
+.test{
+    position: relative;
+    bottom: 50px;
+    right: 60px;
+    float: right;
+    font-size: 10px;
+}
+
 /* RESPONSIVE MOBILE L VIEW */
 @media (min-width: 425px){
 
@@ -95,6 +108,81 @@ section h2 {
 
     .team-profile p {
         font-size: 14px;
+    }
+
+}
+
+/* RESPONSIE TABLET VIEW */
+@media (min-width: 768px){
+    
+    .three-cols{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px auto 30px;
+    }
+
+    .two-cols{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px auto 30px;
+    }
+
+    header .logo-text{
+        width: 500px;
+    }
+
+    header .logo-women{
+        width: 500px;
+    }
+
+    header h2{
+        font-size: 22px;
+    }
+
+    header h3{
+        font-size: 18px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    section p {
+        font-size: 20px;
+    }
+
+    .join-button {
+        font-size: 20px;
+    }
+
+    .girls-in-group{
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .team-profile{
+        margin: 0 auto;
+        /* border: 1px solid grey; */
+        /* border-radius: 30px; */
+        /* display: flex;
+        justify-content: center; */
+        gap: 20px;
+    }
+
+    .team-profile p {
+        font-size: 23px;
+    }
+
+    .team-profile a {
+        font-size: 40px;
+        margin: 5px 5px;
+    }
+
+    .team-profile img{
+        width: 220px;
+        /* margin: 20px; */
+        border-radius: 30px;
     }
 
 }
