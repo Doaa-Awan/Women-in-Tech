@@ -77,7 +77,6 @@ ol li{
 }
 
 .team-profile{
-    /* margin-left: 20px; */
     margin-right: 0;
 }
 
@@ -93,7 +92,11 @@ ol li{
 
 .team-profile .info {
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 0px;
+}
+
+.team-profile .info .program{
+    font-size: 10px;
 }
 
 .team-profile a {
@@ -111,39 +114,33 @@ ol li{
 
 .two-cols{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.3fr 1fr;
     margin: 10px auto 20px;
 }
-
-/* .footer-img{
-    opacity: 0.7;
-    position: fixed;
-}
-
-.test{
-    position: relative;
-    bottom: 50px;
-    right: 60px;
-    float: right;
-    font-size: 10px;
-} */
 
 /* RESPONSIVE MOBILE L VIEW */
 @media (min-width: 425px){
 
-    .team-profile{
-        margin-left: 25px;
-        margin-right: 0;
+    .team-profile .info {
+        margin-top: 10px;
     }
 
     .team-profile p {
         font-size: 14px;
     }
 
+    .team-profile img{
+        width: 170px;
+    }
+
 }
 
 /* RESPONSIE TABLET VIEW */
 @media (min-width: 768px){
+
+    /* .site-body{
+        padding: 0 100px;
+    } */
     
     .three-cols{
         display: grid;
@@ -173,12 +170,16 @@ ol li{
         font-size: 18px;
     }
 
+    section{
+        padding: 0 100px;
+    }
+
     section h2 {
         font-size: 22px;
     }
 
     section p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     ol li{
@@ -186,7 +187,7 @@ ol li{
     }
 
     .join-button {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .girls-in-group{
@@ -197,32 +198,27 @@ ol li{
 
     .team-profile{
         margin: 0 auto;
-        /* border: 1px solid grey; */
-        /* border-radius: 30px; */
-        /* display: flex;
-        justify-content: center; */
         gap: 20px;
     }
 
     .team-profile p {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .team-profile a {
-        font-size: 40px;
+        font-size: 30px;
         margin: 5px 5px;
     }
 
     .team-profile img{
         width: 220px;
-        /* margin: 20px; */
         border-radius: 30px;
     }
 
 }
 
 /* RESPONSIVE LAPTOP L VIEW */
-@media (min-width: 1440px){
+@media (min-width: 1024px){
 
     header h2, section h2 {
         font-size: 25px;
@@ -241,7 +237,7 @@ ol li{
     }
 
     section {
-        margin: 0 300px;
+        padding: 0 200px;
     }
 
 }
