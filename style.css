@@ -217,7 +217,7 @@ ol li{
 
 }
 
-/* RESPONSIVE LAPTOP L VIEW */
+/* RESPONSIVE LAPTOP VIEW */
 @media (min-width: 1024px){
 
     header h2, section h2 {
@@ -238,6 +238,35 @@ ol li{
 
     section {
         padding: 0 200px;
+    }
+
+}
+
+/* RESPONSIVE LAPTOP L VIEW */
+@media (min-width: 1440px){
+
+    header h2, section h2 {
+        font-size: 22px;
+    }
+
+    header h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .icon-socials a {
+        font-size: 50px;
+    }
+
+    section {
+        padding: 0 300px;
+    }
+
+    .team-profile img{
+        width: 240px;
     }
 
 }
