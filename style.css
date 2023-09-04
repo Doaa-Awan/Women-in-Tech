@@ -241,6 +241,19 @@ ol li{
 /* RESPONSIVE LAPTOP L VIEW */
 @media (min-width: 1440px){
 
+    header .logo-text{
+        width: 500px;
+    }
+
+    header .logo-women{
+        width: 450px;
+    }
+
+    .girls-in-group{
+        width: 480px;
+
+    }
+
     .icon-socials a {
         font-size: 50px;
     }
@@ -279,7 +292,7 @@ ol li{
     }
 
     .join-button {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .nav-nc-logo{
