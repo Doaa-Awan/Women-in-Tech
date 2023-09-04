@@ -228,10 +228,6 @@ ol li{
         font-size: 20px;
     }
 
-    p {
-        font-size: 22px;
-    }
-
     .icon-socials a {
         font-size: 70px;
     }
@@ -245,28 +241,57 @@ ol li{
 /* RESPONSIVE LAPTOP L VIEW */
 @media (min-width: 1440px){
 
-    header h2, section h2 {
-        font-size: 22px;
-    }
-
-    header h3 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 20px;
-    }
-
     .icon-socials a {
         font-size: 50px;
     }
 
     section {
-        padding: 0 300px;
+        padding: 0 350px;
+    }
+
+    header h2, section h2 {
+        font-size: 23px;
+    }
+
+    section p {
+        font-size: 20px;
+    }
+
+    ol li{
+        font-size: 20px;
     }
 
     .team-profile img{
-        width: 240px;
+        width: 340px;
+    }
+
+    .team-profile p {
+        font-size: 23px;
+    }
+
+    .team-profile a {
+        font-size: 40px;
+        margin: 10px 10px;
+    }
+
+    .team-profile .info .program{
+        font-size: 14px;
+    }
+
+    .join-button {
+        font-size: 23px;
+    }
+
+    .nav-nc-logo{
+        height: 100px;
+    }
+
+    .nav-text-logo{
+        height: 100px;
+    }
+
+    .text-nav {
+        font-size: 20px;
     }
 
 }
