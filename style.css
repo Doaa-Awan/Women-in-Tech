@@ -155,19 +155,19 @@ ol li{
     }
 
     header .logo-text{
-        width: 500px;
+        width: 350px;
     }
 
     header .logo-women{
-        width: 500px;
+        width: 300px;
     }
 
     header h2{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     header h3{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     section{
@@ -175,23 +175,23 @@ ol li{
     }
 
     section h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     section p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     ol li{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .join-button {
-        font-size: 19px;
+        font-size: 16px;
     }
 
     .girls-in-group{
-        width: 500px;
+        width: 350px;
         display: block;
         margin: 0 auto;
     }
@@ -202,7 +202,7 @@ ol li{
     }
 
     .team-profile p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .team-profile a {
@@ -229,7 +229,7 @@ ol li{
     }
 
     .icon-socials a {
-        font-size: 70px;
+        font-size: 50px;
     }
 
     section {
