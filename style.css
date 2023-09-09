@@ -12,9 +12,11 @@ body{
 
 header{
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 0 30px;
     text-align: center;
-    background-color: #28257C;
+    /* background-color: #28257C; */
+    /* background-color: #0077BE; */
+    /* background: linear-gradient(180deg, hsla(202, 100%, 37%, 1) 0%, hsla(173, 100%, 44%, 1) 100%); */
 }
 
 header img{
@@ -23,20 +25,20 @@ header img{
 }
 
 header .logo-text{
-    width: 180px;
+    width: 220px;
     opacity: 0.8;
 }
 
-header .header-info{
-    /* margin-left: 30px; */
-}
+/* header .header-info{
+    margin-left: 30px;
+} */
 
 /* header .logo-women{
     width: 250px;
 } */
 
 header h2{
-    color: whitesmoke;
+    color: gray;
     font-size: 17px;
 }
 
