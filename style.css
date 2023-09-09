@@ -11,8 +11,10 @@ body{
 /* MOBILE M VIEW 375px */
 
 header{
-    margin: 80px auto 30px;
+    margin: 0 auto;
+    padding: 50px 0;
     text-align: center;
+    background-color: #28257C;
 }
 
 header img{
@@ -21,20 +23,25 @@ header img{
 }
 
 header .logo-text{
-    width: 300px;
+    width: 180px;
+    opacity: 0.8;
 }
 
-header .logo-women{
-    width: 250px;
+header .header-info{
+    /* margin-left: 30px; */
 }
+
+/* header .logo-women{
+    width: 250px;
+} */
 
 header h2{
-    color: gray;
-    font-size: 18px;
+    color: whitesmoke;
+    font-size: 17px;
 }
 
 header h3{
-    font-size: 15px;
+    font-size: 14px;
     color: hotpink;
 }
 
@@ -49,15 +56,25 @@ section h2 {
     color: turquoise;
     font-size: 18px;
     text-transform: uppercase;
-    margin: 10px 0 20px 0;
+    margin: 30px 0 20px 0;
 }
 
 ol li{
     font-size: 14px;
 }
 
+.nav-text-logo{
+    height: 50px;
+    position: relative;
+    right: 12px;
+}
+
+.nav-nc-logo{
+    height: 45px;
+}
+
 .icon-socials a{
-    font-size: 40px;
+    font-size: 35px;
     text-decoration: none;
     color: hotpink;
     margin: 0 5px;
@@ -112,10 +129,18 @@ ol li{
     margin: 0;
 }
 
+/* .two-col-header{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    margin: 10px auto 20px;
+} */
+
 .two-cols{
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     margin: 10px auto 20px;
+
+
 }
 
 /* RESPONSIVE MOBILE L VIEW */
