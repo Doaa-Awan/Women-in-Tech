@@ -21,7 +21,7 @@ header{
 }
 
 header img{
-    opacity: 0.8;
+    opacity: 0.9;
     /* margin: 10px auto; */
     /* width: auto; */
 }
@@ -96,6 +96,10 @@ ol li{
     width: 280px;
     display: block;
     margin: 0 auto;
+}
+
+.join-button {
+    font-size: 13px;
 }
 
 .news-links {
