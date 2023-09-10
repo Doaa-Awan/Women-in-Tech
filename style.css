@@ -233,8 +233,16 @@ ol li{
         margin: 10px auto 30px;
     }
 
+    header {
+        padding: 70px 100px 0;
+    }
+
+    header img{
+        width: 300px;
+    }
+
     header .logo-text{
-        width: 350px;
+        width: 300px;
     }
 
     header .logo-women{
@@ -299,6 +307,10 @@ ol li{
 /* RESPONSIVE LAPTOP VIEW */
 @media (min-width: 1024px){
 
+    header {
+        padding: 100px 180px 0;
+    }
+
     header h2, section h2 {
         font-size: 25px;
     }
@@ -308,7 +320,7 @@ ol li{
     }
 
     .icon-socials a {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     section {
@@ -320,8 +332,12 @@ ol li{
 /* RESPONSIVE LAPTOP L VIEW */
 @media (min-width: 1440px){
 
+    header {
+        padding: 120px 320px 0;
+    }
+
     header .logo-text{
-        width: 500px;
+        width: 300px;
     }
 
     header .logo-women{
@@ -334,7 +350,7 @@ ol li{
     }
 
     .icon-socials a {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     section {
@@ -375,11 +391,11 @@ ol li{
     }
 
     .nav-nc-logo{
-        height: 100px;
+        height: 60px;
     }
 
     .nav-text-logo{
-        height: 100px;
+        height: 60px;
     }
 
     .text-nav {
