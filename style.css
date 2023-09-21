@@ -5,6 +5,10 @@
       rgb(255, 84, 162, 0.7),
       rgb(255, 87, 90, 0.9)
     );
+    /* background-color: #070372; */
+    /* background-color: #28257C; */
+    /* background-color: #0077BE; */
+    /* background: linear-gradient(180deg, hsla(202, 100%, 37%, 1) 0%, hsla(173, 100%, 44%, 1) 100%); */
   }
 
 html {
@@ -17,33 +21,32 @@ body{
 
 /* MOBILE M VIEW 375px */
 
+nav{
+    background: linear-gradient(90deg, rgba(43,130,192,1) 7%, rgba(203,108,230,1) 100%);
+}
+
+/* .custom-toggler.navbar-toggler {
+    border-color: white;
+} */
+
+/* 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
 header{
     margin: 0 auto;
-    padding: 50px 0 0;
     text-align: center;
-    background-color: #070372;
-    /* background-color: #28257C; */
-    /* background-color: #0077BE; */
-    /* background: linear-gradient(180deg, hsla(202, 100%, 37%, 1) 0%, hsla(173, 100%, 44%, 1) 100%); */
 }
 
-header img{
-    opacity: 0.9;
-    /* margin: 10px auto; */
-    /* width: auto; */
-}
-
-header .logo-text{
+/* header .logo-text{
     width: 220px;
     opacity: 0.8;
 }
 
 header .header-info{
     margin-left: 30px;
-}
-
-/* header .logo-women{
-    width: 250px;
 } */
 
 header h2{
@@ -66,10 +69,10 @@ section{
 }
 
 section h2 {
-    color: #02D3B2;
+    color: hotpink;
     font-size: 15px;
     text-transform: uppercase;
-    margin: 30px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 section p {
@@ -80,15 +83,21 @@ ol li{
     font-size: 13px;
 }
 
-.colorLine1 {
+.ncsac-logo{
+    position: relative;
+    bottom: 33px;
+    margin-left: 15px;
+}
+
+.colorLine {
     position: relative;
   }
   
-  .colorLine1::after {
+  .colorLine::after {
     content: "";
     width: 5px;
     height: 100%;
-    background: var(--vertical-gradient);
+    background: hotpink;
     position: absolute;
     left: -20px;
     top: 0px;
@@ -96,13 +105,11 @@ ol li{
 
 .nav-text-logo{
     height: 40px;
-    position: relative;
-    right: 12px;
 }
 
-.nav-nc-logo{
+/* .nav-nc-logo{
     height: 35px;
-}
+} */
 
 .icon-socials a{
     font-size: 30px;
@@ -114,7 +121,7 @@ ol li{
 }
 
 .girls-in-group{
-    width: 280px;
+    /* width: 280px; */
     display: block;
     margin: 0 auto;
 }
@@ -216,10 +223,6 @@ ol li{
 
 /* RESPONSIE TABLET VIEW */
 @media (min-width: 768px){
-
-    /* .site-body{
-        padding: 0 100px;
-    } */
     
     .three-cols{
         display: grid;
@@ -232,22 +235,14 @@ ol li{
         grid-template-columns: 1fr;
         margin: 10px auto 30px;
     }
-
-    header {
-        padding: 70px 100px 0;
-    }
-
-    header img{
-        width: 300px;
-    }
-
+/* 
     header .logo-text{
         width: 300px;
-    }
+    } */
 
-    header .logo-women{
+    /* header .logo-women{
         width: 300px;
-    }
+    } */
 
     header h2{
         font-size: 20px;
@@ -255,6 +250,11 @@ ol li{
 
     header h3{
         font-size: 16px;
+    }
+
+    .ncsac-logo{
+        bottom: 80px;
+        width: 100px;
     }
 
     section{
@@ -307,8 +307,12 @@ ol li{
 /* RESPONSIVE LAPTOP VIEW */
 @media (min-width: 1024px){
 
-    header {
+    /* header {
         padding: 100px 180px 0;
+    } */
+
+    .nav-text-logo{
+        height: 60px;
     }
 
     header h2, section h2 {
@@ -317,6 +321,12 @@ ol li{
 
     header h3 {
         font-size: 20px;
+    }
+
+    .ncsac-logo{
+        bottom: 100px;
+        width: 150px;
+        margin-left: 20px;
     }
 
     .icon-socials a {
@@ -332,30 +342,36 @@ ol li{
 /* RESPONSIVE LAPTOP L VIEW */
 @media (min-width: 1440px){
 
-    header {
+    /* header {
         padding: 120px 320px 0;
-    }
+    } */
 
-    header .logo-text{
+    /* header .logo-text{
         width: 300px;
     }
 
     header .logo-women{
         width: 450px;
+    } */
+
+    .ncsac-logo{
+        bottom: 150px;
+        width: 200px;
+        margin-left: 30px;
     }
 
     .girls-in-group{
-        width: 480px;
+        width: 680px;
 
     }
 
-    .icon-socials a {
+    /* .icon-socials a {
         font-size: 40px;
-    }
+    } */
 
-    section {
+    /* section {
         padding: 0 350px;
-    }
+    } */
 
     header h2, section h2 {
         font-size: 23px;
@@ -390,12 +406,12 @@ ol li{
         font-size: 22px;
     }
 
-    .nav-nc-logo{
+    /* .nav-nc-logo{
         height: 60px;
-    }
+    } */
 
     .nav-text-logo{
-        height: 60px;
+        height: 80px;
     }
 
     .text-nav {
