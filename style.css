@@ -72,7 +72,7 @@ section p {
 }
 
 footer{
-    padding: 12px 8px;
+    padding: 12px 8px 20px;
 }
 
 footer .main-buttons{
@@ -82,8 +82,19 @@ footer .main-buttons{
 footer .main-buttons a {
     /* font-family: 'Barlow Condensed', sans-serif; */
     font-size: 11px;
-    background: var(--pink-gradient);
     color: white;
+}
+
+footer .join-button {
+    background: var(--main-blue);
+}
+
+footer .insta-button {
+    background: hotpink;
+}
+
+footer .news-button {
+    background: var(--main-purple);
 }
 
 .location i {
