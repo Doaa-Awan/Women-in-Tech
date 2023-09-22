@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Poppins:wght@200;300&display=swap');
 
 :root {
-    --vertical-gradient: linear-gradient(
-      rgb(255, 84, 162, 0.7),
-      rgb(255, 87, 90, 0.9)
+    --main-blue: #2B82C3;
+    --main-purple: #cb6ce6;
+    --main-gradient: linear-gradient(90deg, rgba(43,130,192,1) 7%, rgba(203,108,230,1) 100%);
+    --pink-gradient: linear-gradient(
+      rgba(255, 84, 162, 0.7),
+      rgba(255, 87, 90, 0.9)
     );
-    /* background-color: #070372; */
-    /* background-color: #28257C; */
-    /* background-color: #0077BE; */
-    /* background: linear-gradient(180deg, hsla(202, 100%, 37%, 1) 0%, hsla(173, 100%, 44%, 1) 100%); */
   }
 
 html {
@@ -17,37 +17,29 @@ html {
 
 body{
     font-family: Poppins;
+    margin-bottom: 80px;
 }
 
 /* MOBILE M VIEW 375px */
-
 nav{
-    background: linear-gradient(90deg, rgba(43,130,192,1) 7%, rgba(203,108,230,1) 100%);
+    background: var(--main-gradient)
 }
 
-/* .custom-toggler.navbar-toggler {
-    border-color: white;
-} */
+nav ul li a {
+    margin-left: 5px;
+    font-size: 5px;
+}
 
-/* 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} */
+nav .nav-text-logo {
+    position: relative;
+    right: 10px;
+    height: 40px;
+}
 
 header{
     margin: 0 auto;
     text-align: center;
 }
-
-/* header .logo-text{
-    width: 220px;
-    opacity: 0.8;
-}
-
-header .header-info{
-    margin-left: 30px;
-} */
 
 header h2{
     color: whitesmoke;
@@ -79,8 +71,30 @@ section p {
     font-size: 13px;
 }
 
-ol li{
-    font-size: 13px;
+footer{
+    padding: 12px 8px;
+}
+
+footer .main-buttons{
+    margin: 0 20px;
+}
+
+footer .main-buttons a {
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    font-size: 11px;
+    background: var(--pink-gradient);
+    color: white;
+}
+
+.location i {
+    color: hotpink;
+}
+
+.location{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    color: var(--main-blue);
 }
 
 .ncsac-logo{
@@ -93,7 +107,7 @@ ol li{
     position: relative;
   }
   
-  .colorLine::after {
+.colorLine::after {
     content: "";
     width: 5px;
     height: 100%;
@@ -101,38 +115,6 @@ ol li{
     position: absolute;
     left: -20px;
     top: 0px;
-  }
-
-.nav-text-logo{
-    height: 40px;
-}
-
-/* .nav-nc-logo{
-    height: 35px;
-} */
-
-.icon-socials a{
-    font-size: 30px;
-    text-decoration: none;
-    color: hotpink;
-    margin: 0 5px;
-    /* -webkit-text-stroke: 1px hotpink;
-    color: transparent; */
-}
-
-.girls-in-group{
-    /* width: 280px; */
-    display: block;
-    margin: 0 auto;
-}
-
-.join-button {
-    font-size: 13px;
-}
-
-.news-links {
-    text-decoration: none;
-    color: hotpink;
 }
 
 .team-profile{
@@ -159,22 +141,10 @@ ol li{
 }
 
 .team-profile a {
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
     margin: 10px 3px;
     color: hotpink;
-}
-
-.site-author{
-    font-size: 12px;
-    padding: 15px 50px;
-    margin: 0;
-}
-
-.two-col-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10px auto 20px;
 }
 
 .two-cols{
@@ -182,8 +152,40 @@ ol li{
     grid-template-columns: 1.3fr 1fr;
     margin: 10px auto 20px;
 
-
 }
+
+/* .icon-socials a{
+    font-size: 30px;
+    text-decoration: none;
+    color: hotpink;
+    margin: 0 5px;
+    -webkit-text-stroke: 1px hotpink;
+    color: transparent;
+} */
+
+/* .site-author{
+    font-size: 9px;
+    padding: 0 50px;
+    margin: 30px 0 0;
+} */
+
+/* .two-col-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px auto 20px;
+} */
+
+/* .custom-toggler.navbar-toggler {
+    border-color: blue;
+} */
+
+/* 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+/* ////////////////////RESPONSIVE VIEWS/////////////////// */
 
 /* RESPONSIVE MOBILE L VIEW */
 @media (min-width: 425px){
@@ -200,6 +202,10 @@ ol li{
     
     header .header-info{
         margin-left: 30px;
+    }
+
+    footer .main-buttons{
+        margin: 0 35px;
     }
 
     .icon-socials a{
@@ -224,37 +230,12 @@ ol li{
 /* RESPONSIE TABLET VIEW */
 @media (min-width: 768px){
     
-    .three-cols{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 10px auto 30px;
-    }
-
-    .two-cols{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 10px auto 30px;
-    }
-/* 
-    header .logo-text{
-        width: 300px;
-    } */
-
-    /* header .logo-women{
-        width: 300px;
-    } */
-
     header h2{
         font-size: 20px;
     }
 
     header h3{
         font-size: 16px;
-    }
-
-    .ncsac-logo{
-        bottom: 80px;
-        width: 100px;
     }
 
     section{
@@ -269,18 +250,21 @@ ol li{
         font-size: 15px;
     }
 
-    ol li{
-        font-size: 14px;
+    .ncsac-logo{
+        bottom: 80px;
+        width: 100px;
     }
 
-    .join-button {
-        font-size: 16px;
+    .three-cols{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px auto 30px;
     }
 
-    .girls-in-group{
-        width: 350px;
-        display: block;
-        margin: 0 auto;
+    .two-cols{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px auto 30px;
     }
 
     .team-profile{
@@ -307,14 +291,6 @@ ol li{
 /* RESPONSIVE LAPTOP VIEW */
 @media (min-width: 1024px){
 
-    /* header {
-        padding: 100px 180px 0;
-    } */
-
-    .nav-text-logo{
-        height: 60px;
-    }
-
     header h2, section h2 {
         font-size: 25px;
     }
@@ -323,55 +299,24 @@ ol li{
         font-size: 20px;
     }
 
+    section {
+        padding: 0 200px;
+    }
+
+    nav .nav-text-logo{
+        height: 60px;
+    }
+
     .ncsac-logo{
         bottom: 100px;
         width: 150px;
         margin-left: 20px;
     }
 
-    .icon-socials a {
-        font-size: 40px;
-    }
-
-    section {
-        padding: 0 200px;
-    }
-
 }
 
 /* RESPONSIVE LAPTOP L VIEW */
 @media (min-width: 1440px){
-
-    /* header {
-        padding: 120px 320px 0;
-    } */
-
-    /* header .logo-text{
-        width: 300px;
-    }
-
-    header .logo-women{
-        width: 450px;
-    } */
-
-    .ncsac-logo{
-        bottom: 150px;
-        width: 200px;
-        margin-left: 30px;
-    }
-
-    .girls-in-group{
-        width: 680px;
-
-    }
-
-    /* .icon-socials a {
-        font-size: 40px;
-    } */
-
-    /* section {
-        padding: 0 350px;
-    } */
 
     header h2, section h2 {
         font-size: 23px;
@@ -381,8 +326,14 @@ ol li{
         font-size: 20px;
     }
 
-    ol li{
-        font-size: 20px;
+    .ncsac-logo{
+        bottom: 150px;
+        width: 200px;
+        margin-left: 30px;
+    }
+
+    .girls-in-group{
+        width: 680px;
     }
 
     .team-profile img{
@@ -405,10 +356,6 @@ ol li{
     .join-button {
         font-size: 22px;
     }
-
-    /* .nav-nc-logo{
-        height: 60px;
-    } */
 
     .nav-text-logo{
         height: 80px;
