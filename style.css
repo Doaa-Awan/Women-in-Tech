@@ -30,11 +30,6 @@ nav ul li a {
     font-size: 5px;
 }
 
-nav .nav-text-logo {
-    position: relative;
-    right: 10px;
-    height: 40px;
-}
 
 header{
     margin: 0 auto;
@@ -75,12 +70,42 @@ footer{
     padding: 12px 8px 20px;
 }
 
+nav .nav-text-logo {
+    position: relative;
+    right: 10px;
+    height: 40px;
+}
+
+header .text {
+    font-size: 9px;
+    text-align: left;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: -15px;
+
+}
+
+header .txtheader-one {
+    color: white;
+    top: -77px;
+}
+
+header .txtheader-two {
+    color: hotpink;
+    top: -63px;
+}
+
+header .ncsac-logo{
+    position: relative;
+    bottom: 33px;
+    margin-left: 15px;
+}
+
 footer .main-buttons{
     margin: 0 20px;
 }
 
 footer .main-buttons a {
-    /* font-family: 'Barlow Condensed', sans-serif; */
     font-size: 11px;
     color: white;
 }
@@ -106,12 +131,6 @@ footer .news-button {
     font-weight: bold;
     font-size: 11px;
     color: var(--main-blue);
-}
-
-.ncsac-logo{
-    position: relative;
-    bottom: 33px;
-    margin-left: 15px;
 }
 
 .colorLine {
@@ -219,6 +238,14 @@ footer .news-button {
         margin-left: 30px;
     }
 
+    header .txtheader-one {
+        top: -87px;
+    }
+    
+    header .txtheader-two {
+        top: -70px;
+    }
+
     footer .main-buttons{
         margin: 0 35px;
     }
@@ -265,7 +292,19 @@ footer .news-button {
         font-size: 15px;
     }
 
-    .ncsac-logo{
+    header .text {
+        font-size: 15px;
+    }
+
+    header .txtheader-one {
+        top: -155px;
+    }
+    
+    header .txtheader-two {
+        top: -137px;
+    }
+
+    header .ncsac-logo{
         bottom: 80px;
         width: 100px;
     }
