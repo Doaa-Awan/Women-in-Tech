@@ -91,7 +91,7 @@ header .txtheader-one {
 }
 
 header .txtheader-two {
-    color: hotpink;
+    color: white;
     top: -63px;
 }
 
@@ -178,7 +178,7 @@ footer .news-button {
 }
 
 .team-profile .role {
-    color: var(--main-purple);
+    color: hotpink;
 }
 
 .two-cols{
