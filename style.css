@@ -178,7 +178,7 @@ footer .news-button {
 }
 
 .team-profile .role {
-    color: hotpink;
+    color: var(--main-purple);
 }
 
 .two-cols{
