@@ -62,6 +62,10 @@ section h2 {
     margin: 0 0 20px 0;
 }
 
+.news h2 {
+    margin-bottom: 15px;
+}
+
 section p {
     font-size: 13px;
 }
@@ -186,6 +190,21 @@ footer .news-button {
     grid-template-columns: 1.3fr 1fr;
     margin: 10px auto 20px;
 
+}
+
+.news-date{
+    text-align: end;
+    color: rgb(210, 55, 132);
+}
+
+.news-date i {
+    /* color: pink; */
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+.news a {
+    text-decoration: none;
 }
 
 .register-btn{
