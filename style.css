@@ -194,7 +194,9 @@ footer .news-button {
 
 .news-date{
     text-align: end;
-    color: rgb(210, 55, 132);
+    color: var(--main-blue);
+    /* color: black; */
+    /* color: rgb(210, 55, 132); */
 }
 
 .news-date i {
