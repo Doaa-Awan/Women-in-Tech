@@ -188,6 +188,13 @@ footer .news-button {
 
 }
 
+.register-btn{
+    width: auto;
+    display: block;
+    margin-left: 65%;
+    font-size: 12px;
+}
+
 /* .icon-socials a{
     font-size: 30px;
     text-decoration: none;
