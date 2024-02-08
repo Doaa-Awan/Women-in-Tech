@@ -107,6 +107,7 @@ header .ncsac-logo{
 
 footer .main-buttons{
     margin: 0 20px;
+    justify-content: space-around;
 }
 
 footer .main-buttons a {
@@ -282,6 +283,7 @@ footer .news-button {
     footer .main-buttons{
         margin: 0 35px;
         justify-content: space-around;
+        /* border: 1px solid red; */
     }
 
     .icon-socials a{
